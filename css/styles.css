@@ -1,0 +1,76 @@
+.navbar {
+  font-family: Courier New;
+  color: white;
+  background-color: #252626;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #000000;
+  color: white;
+  padding-bottom: 15px;
+  font-family: Courier New;
+}
+
+#page-container #content-wrap {
+  padding-bottom: 2.5rem;
+  height: auto;
+}
+
+#page-container #content-wrap .masthead {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/fd90ced135e1e970ea404b9850c0f6c5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#page-container #content-wrap .masthead a link {
+  color: white;
+}
+
+#page-container #content-wrap .masthead a hover,
+#page-container #content-wrap .masthead a active,
+#page-container #content-wrap .masthead a focus {
+  color: lightgray;
+}
+
+#page-container #content-wrap .masthead h2 {
+  text-align: center;
+}
+
+#page-container a:link {
+  color: white;
+}
+
+#page-container a:hover,
+#page-container a:active,
+#page-container a:focus {
+  color: lightgray;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-indent: 50px;
+}
+
+.items {
+  text-align: center;
+  padding-left: 20px;
+}
+
+footer {
+  font-family: Courier New;
+  font-size: small;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 5rem;
+  background-color: #252626;
+}
+/*# sourceMappingURL=styles.css.map */

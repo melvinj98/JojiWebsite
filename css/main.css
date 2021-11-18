@@ -1,0 +1,132 @@
+.navbar {
+  font-family: Courier New;
+  color: white;
+  background-color: #2a2a2c;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #000000;
+  color: white;
+  padding-bottom: 40px;
+  font-family: Courier New;
+}
+
+#page-container #content-wrap {
+  padding-bottom: 2.5rem;
+  height: auto;
+}
+
+#page-container .footer {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-family: Courier New;
+  font-size: small;
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 6rem;
+  background-color: #2a2a2c;
+}
+
+.masthead {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/joji_photo_001.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: white !important;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+h2 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+#music #newestReleases {
+  text-align: center;
+  padding: 15px;
+}
+
+#music #albums {
+  text-align: center;
+  padding: 15px;
+}
+
+#about p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-indent: 50px;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+
+.column h5 {
+  padding-top: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#concerts {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+#concerts h4 {
+  text-decoration: underline;
+}
+
+#newsletter p {
+  text-align: center;
+}
+
+#newsletter label {
+  padding-left: 15px;
+}
+
+#newsletter .form-group {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#newsletter #emailHelp {
+  padding-left: 15px;
+}
+
+#newsletter .buttons {
+  padding-left: 12px;
+}
+
+#newsletter .buttons .btn {
+  background-color: #545eb6;
+  border-width: 0px;
+}
+
+#videos {
+  text-align: center;
+  padding-top: 15px;
+}
+/*# sourceMappingURL=main.css.map */
